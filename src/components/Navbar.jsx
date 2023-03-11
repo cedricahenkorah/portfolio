@@ -15,7 +15,7 @@ const Navbar = () => {
       <div>
         <h1 className="text-amber-300">
           <Link to="home" smooth={true} duration={500}>
-            CA 👨🏾‍💻
+            CAff 👨🏾‍💻
           </Link>
         </h1>
       </div>
