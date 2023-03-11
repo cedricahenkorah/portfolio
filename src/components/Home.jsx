@@ -17,9 +17,27 @@ const Home = () => {
           cedricahenkorah@gmail.com | +233 201 648 743
         </p>
         <div className="flex text-5xl justify-center gap-16 py-3">
-          <FiTwitter />
-          <FiGithub />
-          <FiLinkedin />
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://twitter.com/cedricahenkora_"
+          >
+            <FiTwitter />
+          </a>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://github.com/cedricahenkorah"
+          >
+            <FiGithub />
+          </a>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://linkedin.com/in/cedric-ahenkorah-593116189"
+          >
+            <FiLinkedin />
+          </a>
         </div>
       </div>
     </div>
