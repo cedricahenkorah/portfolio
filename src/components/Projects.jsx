@@ -1,7 +1,7 @@
 import React from "react";
 import blogit from "../assets/blogit.jpeg";
-import mymoney from "../assets/mymoney.jpeg";
-import projectmgt from "../assets/projectmgt.jpeg";
+// import mymoney from "../assets/mymoney.jpeg";
+// import projectmgt from "../assets/projectmgt.jpeg";
 
 const Projects = () => {
   return (
@@ -36,7 +36,7 @@ const Projects = () => {
               </p>
             </a>
           </div>
-          <div>
+          {/* <div>
             <a
               target="_blank"
               rel="noreferrer"
@@ -67,7 +67,7 @@ const Projects = () => {
                 expenses tracker built with reactjs and tailwindcss
               </p>
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
