@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div
       name="about"
-      className="w-full h-screen bg-slate-800 text-neutral-100 p-5"
+      className="w-full h-screen bg-slate-800 text-neutral-100 mb-3"
     >
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
