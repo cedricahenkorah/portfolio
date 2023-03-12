@@ -7,7 +7,7 @@ const Projects = () => {
   return (
     <div
       name="projects"
-      className="w-full md:h-screen text-neutral-100 bg-slate-800 pb-10"
+      className="w-full h-screen text-neutral-100 bg-slate-800"
     >
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
@@ -18,7 +18,7 @@ const Projects = () => {
         </div>
 
         {/* container */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
+        <div className="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {/* grid item */}
           <div>
             <a
