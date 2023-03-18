@@ -1,7 +1,7 @@
 import React from "react";
 import blogit from "../assets/blogit.jpeg";
 import cineflix from "../assets/cineflix.jpeg";
-// import mymoney from "../assets/mymoney.jpeg";
+import mymoney from "../assets/money.jpeg";
 // import projectmgt from "../assets/projectmgt.jpeg";
 
 const Projects = () => {
@@ -53,6 +53,22 @@ const Projects = () => {
               </p>
             </a>
           </div>
+          <div>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://mymoney-2940f.web.app/"
+            >
+              <img src={mymoney} alt="myMoney" className="h-40 mx-auto" />
+
+              <p className="mt-4 text-center">
+                <span className="font-bold text-lg text-amber-300">
+                  myMoney -{" "}
+                </span>
+                expenses tracker built with reactjs, firebase and tailwindcss
+              </p>
+            </a>
+          </div>
           {/* <div>
             <a
               target="_blank"
@@ -69,22 +85,7 @@ const Projects = () => {
               </p>
             </a>
           </div>
-          <div>
-            <a
-              target="_blank"
-              rel="noreferrer"
-              href="https://mymoney-2940f.web.app/"
-            >
-              <img src={mymoney} alt="myMoney" className="h-40 mx-auto" />
-
-              <p className="mt-4 text-center">
-                <span className="font-bold text-lg text-amber-300">
-                  myMoney -{" "}
-                </span>
-                expenses tracker built with reactjs and tailwindcss
-              </p>
-            </a>
-          </div> */}
+        */}
         </div>
       </div>
     </div>
