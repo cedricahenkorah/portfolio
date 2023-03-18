@@ -1,5 +1,6 @@
 import React from "react";
 import blogit from "../assets/blogit.jpeg";
+import cineflix from "../assets/cineflix.jpeg";
 // import mymoney from "../assets/mymoney.jpeg";
 // import projectmgt from "../assets/projectmgt.jpeg";
 
@@ -32,7 +33,23 @@ const Projects = () => {
                 <span className="font-bold text-lg text-amber-300">
                   blogIt -{" "}
                 </span>
-                blog site created with reactjs and tailwind css
+                blog site created with reactjs, firebase and tailwind css
+              </p>
+            </a>
+          </div>
+          <div>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://cineflix-jet-seven.vercel.app/"
+            >
+              <img src={cineflix} alt="cineflix" className="h-40 mx-auto" />
+
+              <p className="mt-4 text-center">
+                <span className="font-bold text-lg text-amber-300">
+                  Cineflix -{" "}
+                </span>
+                movie app created with reactjs, firebase and tailwindcss
               </p>
             </a>
           </div>
