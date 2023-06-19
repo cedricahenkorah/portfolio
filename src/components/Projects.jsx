@@ -1,5 +1,5 @@
 import React from "react";
-import blogit from "../assets/blogit.jpeg";
+import blogit from "../assets/Web capture_19-6-2023_1501_blogit-2.vercel.app.jpeg";
 import cineflix from "../assets/cineflix.jpeg";
 import mymoney from "../assets/money.jpeg";
 // import projectmgt from "../assets/projectmgt.jpeg";
@@ -25,7 +25,7 @@ const Projects = () => {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://blogit-37bad.web.app/"
+              href="https://blogit-2.vercel.app/"
             >
               <img src={blogit} alt="blogit" className="h-40 mx-auto" />
 
